@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "eleventy --formats=html,jpg",
-    "serve": "eleventy --serve --formats=html,css,md,jpg"
+    "build": "eleventy --formats=html,css,md,jpg --output=docs",
+    "serve": "npm run build -- --serve"
   },
   "keywords": [],
   "author": "",
