@@ -11,6 +11,6 @@ const { frontmatter } = Astro.props;
 const publishedAt = frontmatter.publishedAt.split("T")[0]
 ---
 <BaseLayout pageTitle={frontmatter.title}>
-  <p>First published on {publishedAt}</p>
+  <p>Published on {publishedAt}</p>
   <slot />
 </BaseLayout>

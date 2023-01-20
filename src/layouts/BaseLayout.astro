@@ -1,5 +1,4 @@
 ---
-import Header from '../components/Header.astro';
 import '../styles/global.css';
 
 export interface Props {
@@ -16,7 +15,6 @@ const {pageTitle} = Astro.props
     <title>{pageTitle}</title>
   </head>
   <body>
-    <Header />
     <h1>{pageTitle}</h1>
 		<slot />
   </body>
