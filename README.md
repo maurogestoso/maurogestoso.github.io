@@ -2,6 +2,10 @@
 
 - [Deploy config](https://docs.astro.build/en/guides/deploy/github/)
 
+## Astro Integrations
+- [@astro/tailwind](https://docs.astro.build/en/guides/integrations-guide/tailwind/)
+  - With [@tailwind/typography](https://tailwindcss.com/docs/typography-plugin)
+
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
