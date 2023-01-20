@@ -1,10 +1,19 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+const allNotes = await Astro.glob('./notes/*.md');
 
+function trimDate(fullDate:string) {
+  return fullDate.split("T")[0]
+}
 ---
+<style>
+  ul {
+    list-style: none;
+  }
+</style>
+
 <BaseLayout pageTitle="What's on Mauro's Mind?">
   <ul>
-    <li><a href="/notes/games-that-are-cocaine-for-my-brain/">Games That Are Cocaine For My Brain</a></li>
-    <li><a href="/notes/my-coffee-setup/">My Coffee Setup</a></li>
+    {allNotes.map(note => (<li>{trimDate(note.frontmatter.publishedAt)} <a href={note.url}>{note.frontmatter.title}</a></li>))}
   </ul>
 </BaseLayout>
