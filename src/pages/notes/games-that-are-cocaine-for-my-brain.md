@@ -24,17 +24,11 @@ Something that has made the pointlessness of these games more evident to me is m
 
  ## A non-exhaustive list of games that are cocaine for my brain and why I love them
 
- - Factorio
-   - It feels like the best parts of computer programming
- - Sid Meier's Railroads
-   - Pure offer vs. demand straight into your veins
- - Stacklands
-   - Amazing at capturing the experience of playing a physical card game
- - Don't Starve
-   - Hauntingly beautiful and Tim Burton-y foraging
- - Vampire Survivors
-   - Barely anything to do. Just move around and watch thousands of monsters die
- - Loop Hero
-   - Beautifully designed idleness. Doing nothing never felt so good
- - Graveyard Keeper
-   - Harvest Moon but creepy. This game brings me the most shame because it's a constant reminder of all the things I should be doing and I'm currently neglecting (chopping wood, farming, cooking, not so much the embalming and zombie creation)
+ - Factorio: it feels like the best parts of computer programming
+ - Sid Meier's Railroads: pure offer vs. demand straight into your veins
+ - Stacklands: amazing at capturing the experience of playing a physical card game
+ - Don't Starve: hauntingly beautiful, Tim Burton-y foraging
+ - Vampire Survivors: barely anything to do, just move around and watch thousands of monsters die
+ - Loop Hero: beautifully designed idleness, doing nothing never felt so good
+ - The cabaret mini-game in Yakuza 0: [if you know, you know](https://www.youtube.com/watch?v=sg76TRf1I8E)
+ - Graveyard Keeper: creepy Harvest Moon. This game brings me the most shame because it's a constant reminder of all the things I should be doing and I'm currently neglecting (chopping wood, farming, cooking, not so much the embalming and zombie creation)

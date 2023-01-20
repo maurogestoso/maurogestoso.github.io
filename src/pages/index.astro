@@ -1,13 +1,14 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 
-
 const allNotes = await Astro.glob("./notes/*.md");
-
-function trimDate(fullDate: string) {
-  return fullDate.split("T")[0];
-}
+const recentNotes = allNotes
+  .sort((a, b) =>
+    a.frontmatter.publishedAt < b.frontmatter.publishedAt ? 1 : -1
+  )
+  .slice(0, 5);
 ---
+
 <BaseLayout>
   <header>
     <h1>What's on Mauro's Mind?</h1>
@@ -16,19 +17,17 @@ function trimDate(fullDate: string) {
     <h2>Recent Notes</h2>
     <ul>
       {
-        allNotes.map((note) => (
-          <li>
-            <span class="font-mono">
-              {trimDate(note.frontmatter.publishedAt)}
-            </span>{" "}
-            <a
-              href={note.url}
-              class="font-semibold"
-            >
-              {note.frontmatter.title}
-            </a>
-          </li>
-        ))
+        recentNotes.map((note) => {
+          const publishedAt = note.frontmatter.publishedAt.split("T").at(0)
+          return (
+            <li>
+              <span class="font-mono">{publishedAt}</span>{" "}
+              <a href={note.url} class="font-semibold">
+                {note.frontmatter.title}
+              </a>
+            </li>
+          );
+        })
       }
     </ul>
   </main>
