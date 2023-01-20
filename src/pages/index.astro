@@ -1,19 +1,35 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-const allNotes = await Astro.glob('./notes/*.md');
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-function trimDate(fullDate:string) {
-  return fullDate.split("T")[0]
+
+const allNotes = await Astro.glob("./notes/*.md");
+
+function trimDate(fullDate: string) {
+  return fullDate.split("T")[0];
 }
 ---
-<style>
-  ul {
-    list-style: none;
-  }
-</style>
-
-<BaseLayout pageTitle="What's on Mauro's Mind?">
-  <ul>
-    {allNotes.map(note => (<li>{trimDate(note.frontmatter.publishedAt)} <a href={note.url}>{note.frontmatter.title}</a></li>))}
-  </ul>
+<BaseLayout>
+  <header>
+    <h1>What's on Mauro's Mind?</h1>
+  </header>
+  <main>
+    <h2>Recent Notes</h2>
+    <ul>
+      {
+        allNotes.map((note) => (
+          <li>
+            <span class="font-mono">
+              {trimDate(note.frontmatter.publishedAt)}
+            </span>{" "}
+            <a
+              href={note.url}
+              class="font-semibold"
+            >
+              {note.frontmatter.title}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </main>
 </BaseLayout>

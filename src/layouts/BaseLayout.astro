@@ -1,21 +1,16 @@
 ---
-import '../styles/global.css';
-
-export interface Props {
-  pageTitle: string;
-}
-const {pageTitle} = Astro.props
+import "../styles/global.css";
 ---
+
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>{pageTitle}</title>
+    <title>What's on Mauro's Mind?</title>
   </head>
-  <body>
-    <h1>{pageTitle}</h1>
-		<slot />
+  <body class="mt-4 ml-20 prose">
+    <slot />
   </body>
 </html>
