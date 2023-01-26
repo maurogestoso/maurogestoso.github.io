@@ -1,20 +1,22 @@
 ---
-const allNotes = await Astro.glob("../pages/notes/*.md");
+import { getCollection } from "astro:content";
+
+const allNotes = await getCollection("notes")
 const recentNotes = allNotes
   .sort((a, b) =>
-    a.frontmatter.publishedAt < b.frontmatter.publishedAt ? 1 : -1
+     b.data.publishedAt.getTime() - a.data.publishedAt.getTime()
   )
   .slice(0, 5);
 ---
 <ul>
   {
     recentNotes.map((note) => {
-      const publishedAt = note.frontmatter.publishedAt.split("T").at(0)
+      const publishedAt = note.data.publishedAt.toISOString().split("T").at(0)
       return (
         <li>
           <span class="font-mono">{publishedAt}</span>{" "}
-          <a href={note.url} class="font-semibold">
-            {note.frontmatter.title}
+          <a href={`${note.collection}/${note.slug}`} class="font-semibold">
+            {note.data.title}
           </a>
         </li>
       );

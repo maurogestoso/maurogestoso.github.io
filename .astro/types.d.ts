@@ -62,8 +62,31 @@ declare module 'astro:content' {
 	};
 
 	const entryMap: {
-		
+		"notes": {
+"games-that-are-cocaine-for-my-brain.md": {
+  id: "games-that-are-cocaine-for-my-brain.md",
+  slug: "games-that-are-cocaine-for-my-brain",
+  body: string,
+  collection: "notes",
+  data: InferEntrySchema<"notes">
+},
+"how-to-use-an-emoji-as-a-favicon.md": {
+  id: "how-to-use-an-emoji-as-a-favicon.md",
+  slug: "how-to-use-an-emoji-as-a-favicon",
+  body: string,
+  collection: "notes",
+  data: InferEntrySchema<"notes">
+},
+"my-coffee-setup.md": {
+  id: "my-coffee-setup.md",
+  slug: "my-coffee-setup",
+  body: string,
+  collection: "notes",
+  data: InferEntrySchema<"notes">
+},
+},
+
 	};
 
-	type ContentConfig = never;
+	type ContentConfig = typeof import("../src/content/config");
 }
