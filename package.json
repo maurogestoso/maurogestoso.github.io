@@ -1,14 +1,14 @@
 {
   "name": "maurogestoso.github.io",
   "type": "module",
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.1",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "new-note": "ts-node-esm src/scripts/new-note.ts"
   },
   "dependencies": {
     "@astrojs/tailwind": "^3.0.0",
@@ -16,6 +16,8 @@
     "tailwindcss": "^3.2.4"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.9"
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/node": "^18.11.18",
+    "ts-node": "^10.9.1"
   }
 }
