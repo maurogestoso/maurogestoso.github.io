@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 
-const allNotes = await getCollection("notes")
+const allNotes = await getCollection("notes", note => !note.data.draft)
 const recentNotes = allNotes
   .sort((a, b) =>
      b.data.publishedAt.getTime() - a.data.publishedAt.getTime()

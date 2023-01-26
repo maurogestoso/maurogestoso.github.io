@@ -5,6 +5,7 @@ const notesCollection = defineCollection({
     title: z.string(),
     tags: z.array(z.string()),
     publishedAt: z.date(),
+    draft: z.boolean().optional(),
   }),
 });
 
