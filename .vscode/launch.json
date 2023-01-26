@@ -6,6 +6,12 @@
       "name": "Development server",
       "request": "launch",
       "type": "node-terminal"
+    },
+    {
+      "command": "node ${file}",
+      "name": "Run current file",
+      "request": "launch",
+      "type": "node-terminal"
     }
   ]
 }
