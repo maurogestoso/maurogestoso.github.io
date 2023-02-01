@@ -5,8 +5,7 @@ const allNotes = await getCollection("notes", note => !note.data.draft)
 const recentNotes = allNotes
   .sort((a, b) =>
      b.data.publishedAt.getTime() - a.data.publishedAt.getTime()
-  )
-  .slice(0, 5);
+  );
 ---
 <ul>
   {
