@@ -10,7 +10,9 @@ import "../styles/global.css";
     <meta name="generator" content={Astro.generator} />
     <title>What's on Mauro's Mind?</title>
   </head>
-  <body class="mt-4 ml-20 prose">
-    <slot />
+  <body class="prose lg:prose-xl">
+    <div class="container px-4 py-4 md:ml-20 lg:ml-40">
+      <slot />
+    </div>
   </body>
 </html>
