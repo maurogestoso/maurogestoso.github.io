@@ -11,6 +11,6 @@ Part of me thinks that once I have my website *just the way I want it*, I will b
 
 > Buying books and reading books are 2 separate hobbies
 
-The truth is, nobody cares what my website looks like as long as it's legible. And the other truth is, I'm not even writing these posts for people to read them, I'm just using them as a tool for thought/journal.
+The truth is, nobody cares what my website looks like as long as it's legible. And the other truth is, I'm not even writing these posts for people to read them, I'm just using them as a tool for thought/journal. It's the disease of focusing so much on the result that you miss out on the pleasures of the process ([I recently listened to an interesting podcast about this](/notes/a-life-changing-philosophy-of-games)).
 
 Using a plain text editor seems like a good start.
