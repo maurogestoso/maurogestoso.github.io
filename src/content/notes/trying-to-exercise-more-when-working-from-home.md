@@ -12,13 +12,13 @@ Just cycling to the office used to give me enough exercise to raise my heartbeat
 
 - The key thing is wanting to be healthier in a proactive way. I’ve had to do exercise as rehab for injuries and it’s not fun. A gram of prevention is 1000 times better than a kilogram of cure (I convert all my proverbs to metric).
 
-- How do I turn myself into a “person who exercises”? This is an idea from the book Atomic Habits, where you tie a habit to your personal identity (this is why things like Crossfit are so effective).
+- How do I turn myself into a “person who exercises”? This is an idea from the book [Atomic Habits](https://jamesclear.com/atomic-habits), where you tie a habit to your personal identity (this is why things like Crossfit are so effective).
 
 - I want to be healthier in order to be a better husband and father. Putting it so simply it sounds stupid: I want to be healthy so I can live as long as possible.
 
 - As a non-sporty, non-competitive person, I don’t enjoy suffering. My wife is the opposite (and that’s why she’s so fit), if she doesn’t suffer it’s not fun for her. I don’t think I can turn myself into someone who enjoys suffering overnight, so I have to strike a balance between the intensity of the activities and how much I enjoy them.
 
-- This is also related to something I heard Andrew Huberman say when talking about dopamine in our brains. It’s not good to spike dopamine as a reward for something we don’t enjoy doing. That only makes us addicted to the reward. It’s important to get enjoyment out of the process, not the end result.
+- This is also related to something I heard Andrew Huberman[^1] say when talking about dopamine in our brains. It’s not good to spike dopamine as a reward for something we don’t enjoy doing. That only makes us addicted to the reward. It’s important to get enjoyment out of the process, not the end result.
 
 - What about organised sports? I used to enjoy practising Tae Kwon Do as a child, but I moved neighbourhoods (and cities, and countries) and never found another instructor I liked. I used to enjoy playing indoor football with a group of friends, but I live too far away from them now. I enjoy playing volleyball, but I doubt I’ll find 11 other players in my population 900 village in rural Spain. Until I get new ideas, it’s solo sports for me.
 
@@ -41,3 +41,6 @@ Just cycling to the office used to give me enough exercise to raise my heartbeat
 - Walk to the village (which is over a kilometer uphill) and exercise at the park. Maybe I could use the trip to buy some groceries too?
 
 - It’s also worth noting that it’s currently winter where I live and by the time I finish with my day job it’s already dark outside. As spring comes, I’ll be able to do more farm-related jobs after work hours. We’re in no shortage of physically demanding tasks.
+
+
+[^1]: 📺 [Andrew Huberman on dopamine and motivation](https://www.youtube.com/watch?v=tWzakqerPUw)
