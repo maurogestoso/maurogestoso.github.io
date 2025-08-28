@@ -1,18 +1,17 @@
 {
-  "name": "blog-eleventy",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "blog",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build-ghpages": "npx @11ty/eleventy --pathprefix=/",
+    "build": "npx @11ty/eleventy",
     "dev": "npx @11ty/eleventy --serve"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Mauro Gestoso",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
     "luxon": "^3.7.1"
+  },
+  "dependencies": {
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
+    "markdown-it": "^14.1.0"
   }
 }

@@ -11,18 +11,27 @@
     href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤔</text></svg>">
 
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="{{ '/css/reset.css' | url }}">
   <link rel="stylesheet" href="{{ '/css/styles.css' | url }}">
+  <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet" />
   <link rel="alternate" href="{{ meta.feed.path | url  }}" type="application/atom+xml" title="{{ meta.title }}">
 
   <title>{{ title }}</title>
+  <style>
+
+  </style>
 </head>
 
 <body>
   <div class="layout-base">
-    {{ content | safe }}
+    <header>
+      <h1>maurog.earth</h1>
+      <p>an old school website for humans</p>
+    </header>
+    <main>
+      {{ content | safe }}
+    </main>
   </div>
-
 </body>
 
 </html>

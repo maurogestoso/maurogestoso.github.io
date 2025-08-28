@@ -11,46 +11,52 @@
     href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤔</text></svg>">
 
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/styles.css">
+  <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet" />
   <link rel="alternate" href="/feed/atomFeed.xml" type="application/atom+xml" title="maurog.earth">
 
   <title>TIL #1: Access the arguments passed to a bash script</title>
+  <style>
 
+  </style>
 </head>
 
 <body>
   <div class="layout-base">
-    
-<div class="layout-page">
-  
-<div>
-  <h1>TIL #1: Access the arguments passed to a bash script</h1>
-  <div>
-    <time datetime="">~ 25 Aug 2025</time>
+    <header>
+      <h1>maurog.earth</h1>
+      <p>an old school website for humans</p>
+    </header>
+    <main>
+      
+<article>
+  <div class="header">
+    <h2>TIL #1: Access the arguments passed to a bash script</h2>
+    <div>
+      <time datetime="">~ 25 Aug 2025</time>
+    </div>
   </div>
-  <p>I don't often write bash scripts, so I forget and relearn this twice a year.</p>
-<pre><code class="language-bash">#!/bin/bash
-echo &quot;All arguments: $@&quot;
-echo &quot;Number of arguments: $#&quot;
+  <div class="content">
+    <p>I don't often write bash scripts, so I forget and relearn this twice a year.</p>
+<pre class="language-bash"><code class="language-bash"><span class="token shebang important">#!/bin/bash</span>
+<span class="token builtin class-name">echo</span> <span class="token string">"All arguments: <span class="token variable">$@</span>"</span>
+<span class="token builtin class-name">echo</span> <span class="token string">"Number of arguments: <span class="token variable">$#</span>"</span>
 
-echo &quot;Path to the script: $0&quot;
-echo &quot;First argument: $1&quot;
-echo &quot;Second argument: $2&quot;
+<span class="token builtin class-name">echo</span> <span class="token string">"Path to the script: <span class="token variable">$0</span>"</span>
+<span class="token builtin class-name">echo</span> <span class="token string">"First argument: <span class="token variable">$1</span>"</span>
+<span class="token builtin class-name">echo</span> <span class="token string">"Second argument: <span class="token variable">$2</span>"</span>
 
-echo &quot;Loop over arguments:&quot;
-for arg in &quot;$@&quot;; do
-    echo &quot;  $arg&quot;
-done
-</code></pre>
-
-</div>
-
-
-</div>
+<span class="token builtin class-name">echo</span> <span class="token string">"Loop over arguments:"</span>
+<span class="token keyword">for</span> <span class="token for-or-select variable">arg</span> <span class="token keyword">in</span> <span class="token string">"<span class="token variable">$@</span>"</span><span class="token punctuation">;</span> <span class="token keyword">do</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">"  <span class="token variable">$arg</span>"</span>
+<span class="token keyword">done</span></code></pre>
 
   </div>
+</article>
 
+    </main>
+  </div>
 </body>
 
 </html>

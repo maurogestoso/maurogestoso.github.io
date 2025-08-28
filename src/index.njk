@@ -1,10 +1,18 @@
 ---
-layout: layouts/page.njk
-title: home
+layout: layouts/base.njk
+title: maurog.earth
 ---
 
-<h1>maurog.earth</h1>
-<p>A personal website</p>
+<h3 class="hidden" id="posts">posts:</h3>
 
+<ul>
+  {% set allPosts = collections.posts %}
+  {%- for post in allPosts | reverse %}
 
+  <li>
+    <time datetime="{{ post.date | dateToString }}">{{ post.date | dateToString }}</time>
+    <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+  </li>
 
+  {%- endfor %}
+</ul>
