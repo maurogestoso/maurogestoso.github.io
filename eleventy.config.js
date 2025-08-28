@@ -9,6 +9,7 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css/styles.css")
 
   eleventyConfig.addPlugin(syntaxHighlight);
+
   const md = markdownIt({
     html: true,
     breaks: true,
