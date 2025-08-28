@@ -1,0 +1,12 @@
+---
+layout: layouts/page.njk
+---
+
+<div>
+  <h1>{{title}}</h1>
+  <div>
+    <time datetime="">~ {{ page.date | readableDate }}</time>
+  </div>
+  {{ content | safe }}
+</div>
+

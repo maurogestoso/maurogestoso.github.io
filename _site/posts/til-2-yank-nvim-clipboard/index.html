@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Mauro Gestoso">
+  <meta name="description" content="">
+
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤔</text></svg>">
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="alternate" href="/feed/atomFeed.xml" type="application/atom+xml" title="maurog.earth">
+
+  <title>TIL #2: Yank from vim to the clipboard</title>
+
+</head>
+
+<body>
+  <div class="layout-base">
+    
+<div class="layout-page">
+  
+<div>
+  <h1>TIL #2: Yank from vim to the clipboard</h1>
+  <div>
+    <time datetime="">~ 27 Aug 2025</time>
+  </div>
+  <p>Sometimes you need to copy some text from <code>vim</code> into your OS' clipboard.</p>
+<p>Select some text and run <code>&quot;+y</code>.</p>
+<p>This means &quot;yank whatever is selected into the <code>+</code> register&quot;. Registers are named spaces in memory where <code>vim</code> puts stuff you delete, yank, change, etc. It's like an internal clipboard but better organised. The <code>+</code> register is a special one called a &quot;selection regsiter&quot;, which is the one in charge of linking to the OS clipboard.</p>
+<p>You can see what's in every register with <code>:reg</code> and you can read more about registers in <code>:h registers</code>.</p>
+
+</div>
+
+
+</div>
+
+  </div>
+
+</body>
+
+</html>
