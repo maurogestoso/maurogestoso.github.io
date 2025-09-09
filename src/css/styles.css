@@ -29,7 +29,7 @@ header {
 main {
   padding: 16px;
 
-  & ul {
+  & > ul {
     list-style: none;
     padding-inline: 0;
   }
