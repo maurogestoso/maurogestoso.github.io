@@ -1,5 +1,5 @@
 ---
-title: "Sunday Cool Links #1"
+title: "Sunday Links #1"
 date: 2025-09-07
 tags: links
 ---
