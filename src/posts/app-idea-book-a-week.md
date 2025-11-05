@@ -3,6 +3,7 @@ title: "App idea: book-a-week"
 date: 2025-09-23
 tags: software, books
 ---
+Update: This post is a stupid idea. [I wrote a counter explaining why](/posts/a-counter-to-my-app-idea/).
 
 I love the little boost of motivation finishing a book gives you. Since I read more than one book at a time (usually 2, nothing crazy), I try to have an even cadence of finishing books to "ride the wave" of motivation. I think this is a neat idea in theory, but in practice it rarely happens. Mostly because my reading habit is all over the place (it's called having a baby).
 
