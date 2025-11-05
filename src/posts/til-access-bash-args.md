@@ -1,5 +1,5 @@
 ---
-title: "TIL #1: access arguments in bash"
+title: "TIL: access arguments in bash"
 date: 2025-08-25
 tags: software, bash, til
 ---

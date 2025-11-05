@@ -1,5 +1,5 @@
 ---
-title: "TIL #2: Yank from vim to the clipboard"
+title: "TIL: Yank from vim to the clipboard"
 date: 2025-08-27
 tags: software, vim, til
 ---
